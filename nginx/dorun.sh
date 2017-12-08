@@ -21,9 +21,7 @@ killitif activity2
 # This is so that the other shells know where to find the containers
 # to hotswap, regardless of the directories
 
-cd ../nginx
-
-docker-compose -p ecs189 up  & 
+docker-compose up  &
 
 # Initially the reverse proxy points at engineering URL 
 # WE first make it point at the right url, using the init.sh script

@@ -10,3 +10,11 @@
 pre {
     width: 80%;
 }
+
+
+/* LIST #2 */
+#list2 { width:320px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#eee; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }

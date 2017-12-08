@@ -3,7 +3,7 @@
 
 sed -i '' 's/image: activity/image: activity2/' docker-compose.yml
 
-var="$(docker ps | awk -F' ' '$2 ==  "activity"' | awk '{print $1}')"
+var="$(docker ps | awk -F' ' '$2 ==  "activity2"' | awk '{print $1}')"
 
 docker rm -f $var
 

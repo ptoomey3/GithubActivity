@@ -9,6 +9,8 @@ services:
     ports:
      - "8888:8888"
     image: ng
+    links:
+      - web1
 
 
    
