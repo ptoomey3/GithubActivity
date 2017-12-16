@@ -91,7 +91,7 @@ public class GithubQuerier {
 
     private static List<JSONObject> getEvents(String user) throws IOException {
         List<JSONObject> eventList = new ArrayList<JSONObject>();
-        String url = BASE_URL + user + "/events?access_token=2e9efcfc339586bb75549c325d76a50e33b1e0b6";
+        String url = BASE_URL + user + "/events?access_token=";
         System.out.println(url);
         JSONObject json = Util.queryAPI(new URL(url));
         System.out.println(json);
